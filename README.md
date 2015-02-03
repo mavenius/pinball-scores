@@ -1,6 +1,6 @@
 Pinball Scores
 =============================
-We used to keep track of high scores at the office on paper.  Now we keep track of them on the internet!
+We used to keep track of high scores at the office on paper.  Now we keep track of them on the Internet!
 
 Todo:
 - Display statistics about all the scores for everyone or filter by user (average, min, max, etc)
