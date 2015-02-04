@@ -1,8 +1,43 @@
+
+body {
+  padding-top: 60px;
+}
+
+table th {
+  text-align:center;
+}
+
+#score-add {
+  margin-top:25px;
+}
+
+.main-container {
+  padding: 20px 15px;
+  text-align: center;
+}
+
 .scores {
   text-align:center;
   font-size:20px;
 }
 
+.scores .panel {
+  cursor: pointer;
+}
+
+.comment-avatar {
+  width: 90px;
+}
+.comment .pull-left {
+  text-align:center;
+}
+.comment .media-body {
+  text-align:left;
+  margin-left:100px;
+}
+#commentForm {
+  text-align: left;
+}
 .scores .panel,
 .scores .input-group {
    max-width: 450px;
@@ -10,29 +45,46 @@
 }
 
 .scores .panel .rank {
-  position: relative;
-  left: -131px;
-  top: -15px;
+  float:left;
   font-size: 15px;
 }
 
+.scores .panel .avatar {
+ padding:15px 0 0 14px;
+}
+
+.scores .panel .comment-count {
+  float:right;
+  font-size:15px;
+}
+
+.scores .panel .score {
+  margin: 25px 0 5px 0;
+  display: block;
+  text-align:left;
+}
+
 .scores .panel .name {
-  position: relative;
-  top: 15px;
-  left: -60px;
+  float:left;
   font-size:15px;
 }
 
 .scores .panel .date {
   font-size: 15px;
-  position: relative;
-  left: 60px;
-  top: 15px;
+  float:right;
 }
 
 .scores .panel-success{
-	border-width: 5px;
+	border-width: 4px;
 	font-weight: bold;
+}
+
+.scores .panel-default .panel-body {
+  padding: 6px 15px;
+}
+
+.scores .panel-success .panel-body {
+  padding: 3px 15px;
 }
 
 input[type='number'] {
@@ -43,3 +95,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
+
+.centered-pills { text-align:center; margin-top:25px; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */

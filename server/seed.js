@@ -1,16 +1,13 @@
-if (Scores.find().count() === 0) {
-  Scores.insert({
-    name: 'Alex',
-    score: 176345
+if(Games.find().count() === 0) {
+  Games.insert({
+    name: 'Laser Cue',
+    logo: '/laser-cue-logo.png',
+    backglass: '/thedudes.jpg'
   });
-
-  Scores.insert({
-    name: 'Alex',
-    score: 176345
-  });
-
-  Scores.insert({
-    name: 'Alex',
-    score: 176345
+  
+  Games.insert({
+    name: 'Whirlwind',
+    logo: '/wwlogo.gif',
+    backglass: '/ww_backglass.jpg'
   });
 }
